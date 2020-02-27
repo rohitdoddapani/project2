@@ -11,6 +11,7 @@ import Default from './components/Default';
 import Nav from './components/Nav';
 import Footer from './components/footer';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 
 class App extends Component {
   render(){
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path="/" exact component={Home} />
               <Route path="/about" exact component={About} />
               <Route path="/contact" exact component={Contact} />
+              <Route path="/gallery" exact component={Gallery} />
               <Route ><Default /></Route>
               
             </Switch>

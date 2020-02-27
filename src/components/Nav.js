@@ -68,15 +68,14 @@ class Nav extends Component {
                                     <Link className="nav-link" to="/about">ABOUT US</Link>
                               </li>
                               <li className="nav-item">
-                                    <a className="nav-link" href="services.html">SERVICES</a>
+                                    <Link className="nav-link" to="/gallery">GALLERY</Link>
                                 </li>
                               <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 PAGES
                               </a>
-                                    <div className="dropdown-menu">
-                                      <a className="dropdown-item" href="page-gallery.html">GALLERY</a>
-                                      <a className="dropdown-item" href="page-testimonials.html">TESTIMONIALS</a>
+                                  <div className="dropdown-menu">
+                                      
                                   <a className="dropdown-item" href="page-faq.html">FAQ</a>
                                   <a className="dropdown-item" href="page-404.html">404 PAGE</a>
                                   <a className="dropdown-item" href="page-news.html">NEWS</a>

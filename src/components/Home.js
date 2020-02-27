@@ -6,8 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Nav from './Nav';
-import Footer from './footer';
+import Testimonials from './Testimonials';
 
 class Home extends Component {
   render(){
@@ -361,82 +360,7 @@ class Home extends Component {
             </div>
 
               
-            <div className="section bgi-cover-center" data-background="images/dummy-img-1920x900-3.jpg">
-              <div className="content-wrap">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-sm-12 col-md-12">
-                      <h2 className="section-heading text-center text-white">
-                        Happy Costumers
-                      </h2>
-                      <p className="subheading text-center mb-5 text-white">Every case is very important to us and we always take care of them seriously.</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    
-                    <div className="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-                      <div id="testimonial" className="owl-carousel owl-theme owl-light">
-                        
-                        <div className="item">
-                          <div className="rs-box-testimony">
-                            
-                            <div className="media-box">
-                              <img src="images/dummy-img-400x400.jpg" alt="" className="rounded-circle" />
-                            </div>
-                            <div className="quote-box">
-                              <blockquote className="quote">
-                              Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam
-                              </blockquote>
-                              <div className="quote-name">
-                                Johnathan Doel <span>Businessman</span>
-                              </div> 
-                            </div>
-
-                          </div>
-                        </div>
-                        
-                        <div className="item">
-                          <div className="rs-box-testimony">
-                            
-                            <div className="media-box">
-                              <img src="images/dummy-img-400x400.jpg" alt="" className="rounded-circle" />
-                            </div>
-                            <div className="quote-box">
-                              <blockquote className="quote">
-                              Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam
-                              </blockquote>
-                              <div className="quote-name">
-                                Alisha Doel <span>Businessman</span>
-                              </div> 
-                            </div>
-                            
-                          </div>
-                        </div>
-                      
-                        <div className="item">
-                          <div className="rs-box-testimony">
-                            
-                            <div className="media-box">
-                              <img src="images/dummy-img-400x400.jpg" alt="" className="rounded-circle" />
-                            </div>
-                            <div className="quote-box">
-                              <blockquote className="quote">
-                              Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam
-                              </blockquote>
-                              <div className="quote-name">
-                                Johny Doel <span>Businessman</span>
-                              </div> 
-                            </div>
-                            
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Testimonials />
 
             
             <div className="section">
@@ -529,34 +453,6 @@ class Home extends Component {
             </div>
 
             
-            <div className="section bg-gray-light">
-              <div className="content-wrap py-5">
-                <div className="container">
-                  
-                  <div className="row gutter-5">
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client1.png" alt="" className="img-fluid img-border" /></a>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client2.png" alt="" className="img-fluid img-border"/></a>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client3.png" alt="" className="img-fluid img-border"/></a>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client4.png" alt="" className="img-fluid img-border"/></a>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client5.png" alt="" className="img-fluid img-border"/></a>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-2">
-                      <a href="#"><img src="images/client6.png" alt="" className="img-fluid img-border"/></a>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
 
         </div>
       </Router>
